@@ -227,7 +227,7 @@ body {
     font-size: 1.2rem;
 }
 .middle_page {
-    margin-top: 250px;
+    margin-top: 200px;
 }
 .mission {
     font-family: "Martian Mono";
@@ -252,7 +252,7 @@ body {
     color: #191314;
     font-weight: 700;
     line-height: 50px;
-    margin-bottom:80px
+    margin-bottom:50px
 }
 .marketing_card {
     height: 100%;
@@ -266,7 +266,7 @@ body {
     transform: scale(1.05);
 }
 .marketing_grid {
-    margin-top: 100px;
+    margin-top: 0px;
     display: flex;
     height: 60%;
     align-items: center;
@@ -318,9 +318,10 @@ body {
     color: #191314;
     width: 90%;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom:30px;
 }
+
 .book_grid {
     background-color: white;
     border-radius: 20px;

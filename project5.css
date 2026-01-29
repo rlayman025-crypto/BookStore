@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html {
+scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +36,15 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+.middle_section a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.15s;
+    color: black;
+}
+.middle_section a:hover {
+    color: #ecf95a;
 }
 .right_section {
     width:10%;
@@ -569,4 +582,37 @@ body {
 .overlay_right {
     width: 55%;
     height: 88%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ecf95a;
+    margin-top: 100px;
+    height: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.contact ,.about {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    flex: 1;
+}
+.about p {
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+.contact p:nth-child(2) {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+.contact p:nth-child(3) {
+    font-size: 1.2rem;
+    margin-top:10px ;
+    margin-bottom: 20px;
 }

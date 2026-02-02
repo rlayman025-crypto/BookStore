@@ -154,24 +154,24 @@ body {
 
 .learn_more_img {
     width: 215px;
-    margin-left: 10%;
+    margin-left: 50%;
     transform: translateX(-50%);
     border-radius: 110px;
     margin-top: 10px;
-    animation-name: rotation;
+    /* animation-name: rotation; */
     animation-duration: 3.5s; 
     animation-iteration-count: infinite; 
     animation-timing-function: linear; 
 }
 
-@keyframes rotation {
+/* @keyframes rotation {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .book_img {
     position: absolute;
@@ -616,3 +616,7 @@ footer {
     margin-top:10px ;
     margin-bottom: 20px;
 }
+
+
+/* media querries */
+
